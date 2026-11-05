@@ -1,0 +1,7 @@
+{
+  "trailingSlash": true,
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "digimarketingstudio.com" }], "destination": "https://www.digimarketingstudio.com/$1", "permanent": true }
+  ]
+}

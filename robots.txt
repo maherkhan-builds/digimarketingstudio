@@ -1,0 +1,17 @@
+# robots.txt for Maher Khan
+User-agent: *
+Allow: /
+
+# AI crawlers welcome (for GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.digimarketingstudio.com/sitemap.xml
