@@ -11,7 +11,7 @@
 <meta name="author" content="Maher Khan">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://www.digimarketingstudio.com/#maher", "name": "Maher Khan", "jobTitle": "AI Content Strategist", "description": "Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.", "url": "https://www.digimarketingstudio.com/", "image": "https://www.digimarketingstudio.com/services/img/portrait.png", "address": {"@type": "PostalAddress", "addressLocality": "San Jose", "addressRegion": "CA", "addressCountry": "US"}, "affiliation": [{"@type": "Organization", "name": "Adobe", "description": "Adobe Brand Ambassador for Adobe Express and Adobe Firefly"}, {"@type": "Organization", "name": "UCLA Extension"}], "alumniOf": [{"@type": "CollegeOrUniversity", "name": "University of Allahabad"}, {"@type": "Organization", "name": "Stanford HAI"}], "knowsAbout": ["Social media strategy", "Social media management", "Content strategy", "Digital marketing", "Meta ads", "AI marketing", "Adobe Express", "Adobe Firefly"], "sameAs": ["https://www.instagram.com/social.icm/", "https://www.linkedin.com/in/mahersocialmediastrategistus/", "https://www.threads.com/@social.icm", "https://github.com/maherkhan-builds"]}, {"@type": "WebSite", "@id": "https://www.digimarketingstudio.com/#site", "name": "Digi Marketing Studio", "url": "https://www.digimarketingstudio.com/", "publisher": {"@id": "https://www.digimarketingstudio.com/#maher"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who is Maher Khan?", "acceptedAnswer": {"@type": "Answer", "text": "Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly. She has 10+ years in digital marketing, 8+ years managing social media, and was an Assistant Professor of Marketing before moving into content strategy."}}, {"@type": "Question", "name": "What does Maher Khan do?", "acceptedAnswer": {"@type": "Answer", "text": "Maher plans, creates and grows content for brands. She offers social media management, content strategy, Meta ads and Reels, and AI training for marketing teams. She is also open to full-time Content Strategist and Social Media Manager roles."}}, {"@type": "Question", "name": "How can I work with Maher Khan?", "acceptedAnswer": {"@type": "Answer", "text": "Recruiters can view her portfolio on the hiring page. Small businesses can explore her services. Anyone can book a free 30-minute call through Calendly, and she replies to every message herself."}}]}]}</script>
 <link rel="icon" href="/favicon.png">
-<link rel="preload" as="image" href="/img/maher/s-bag.webp" fetchpriority="high">
+<link rel="preload" as="image" href="/img/maher/s-bag-l.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
 <style>
@@ -41,20 +41,20 @@ h1{font-family:var(--display);color:var(--white);font-size:clamp(36px,5vw,64px);
 .card b{font-family:var(--display);font-size:22px;line-height:1.15}
 .card .d{color:var(--muted);font-size:14.5px;line-height:1.5}
 .card i{position:absolute;left:20px;bottom:14px;font-style:normal;color:var(--mustard);font-size:20px;transition:transform .25s}
-.card:hover,.card:focus-visible{border-color:var(--mustard);background:var(--panel)}
+.card:hover,.card:focus-visible,.card.on{border-color:#B8901F;background:#B8901F;color:var(--onyx)}.card:hover .for,.card:hover .d,.card:hover i,.card:focus-visible .for,.card:focus-visible .d,.card:focus-visible i,.card.on .for,.card.on .d,.card.on i{color:var(--onyx)}
 .card:hover i,.card:focus-visible i{transform:translateX(5px)}
 .card.cta{background:var(--mustard);border-color:var(--mustard);color:var(--onyx)}
 .card.cta .for,.card.cta i{color:var(--onyx)}.card.cta .d{color:#2a2410}
-.card.cta:hover{background:var(--champagne);border-color:var(--champagne)}
+.card.cta:hover,.card.cta:focus-visible,.card.cta.on{background:#B8901F;border-color:#B8901F}
 
 /* portrait */
 .art{position:relative;justify-self:center;width:100%;max-width:400px;aspect-ratio:400/560}
 .art .sun{position:absolute;left:8%;right:8%;top:16%;aspect-ratio:1;border-radius:50%;background:var(--mustard);animation:float 9s ease-in-out infinite;transition:box-shadow .4s,filter .4s}
 .art.glow .sun{box-shadow:0 0 0 14px rgba(212,167,44,.14),0 0 60px rgba(212,167,44,.35)}
 @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,-12px)}}
-.art img{position:absolute;left:50%;bottom:0;height:100%;width:auto;transform:translateX(-50%)}
-.bubble{position:absolute;left:-14%;top:4%;max-width:220px;padding:12px 14px;border-radius:16px 16px 16px 4px;background:var(--white);color:var(--onyx);font-size:14px;line-height:1.4;font-weight:500;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:opacity .3s}
-.bubble.fade{opacity:0}
+.art img{position:absolute;left:50%;bottom:0;height:100%;width:auto;transform:translateX(-50%);opacity:0;transition:opacity .25s}.art img.on{opacity:1}
+.bubble{position:absolute;left:-30%;top:1%;transform-origin:100% 100%;max-width:220px;padding:12px 14px;border-radius:16px 16px 16px 4px;background:var(--white);color:var(--onyx);font-size:14px;line-height:1.4;font-weight:500;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:opacity .3s}
+.bubble.fade{opacity:0}.bubble.pop{animation:pop .35s cubic-bezier(.3,1.5,.5,1)}@keyframes pop{0%{transform:scale(.8);opacity:0}100%{transform:scale(1);opacity:1}}
 
 /* who */
 .who .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding-block:72px;border-top:1px solid var(--line)}
@@ -102,7 +102,7 @@ footer.site{border-top:1px solid var(--line)}
  .card b{font-size:17.5px}.card .d{font-size:13px}.card .for{font-size:11px;letter-spacing:.08em}
  .card i{left:14px;bottom:10px;font-size:18px}
  .art{max-width:240px}
- .bubble{left:-30%;top:2%;max-width:170px;font-size:12.5px;padding:10px 12px}
+ .bubble{left:-14%;top:2%;max-width:170px;font-size:12.5px;padding:10px 12px}
  .facts{gap:10px}.fact{padding:14px}.fact b{font-size:28px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
@@ -122,11 +122,11 @@ footer.site{border-top:1px solid var(--line)}
       <p class="eyebrow">Maher Khan · AI Content Strategist · San Jose</p>
       <h1 id="h1">Hi, I'm Maher<span class="dot">.</span> What brings you here<span class="dot">?</span></h1>
       <p class="idl">Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.</p>
-      <nav class="grid" aria-label="Choose your path"><a class="card" href="/hire/" data-i="0" data-pose="s-laptop" data-say="Hiring? My portfolio and case studies are ready for you." data-cta="See my portfolio"><span class="for">For recruiters</span><b>I'm hiring</b><span class="d">See my portfolio, case studies and work history.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/services/" data-i="1" data-pose="s-phone" data-say="Need more customers? Let's grow your social media together." data-cta="See my services"><span class="for">For business owners</span><b>I need marketing help</b><span class="d">Social media, content, Meta ads and AI for small businesses.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/about/" data-i="2" data-pose="s-journal" data-say="I left a professor's office to build content for real brands. Curious why?" data-cta="Read my story"><span class="for">For the curious</span><b>Tell me about you</b><span class="d">From Assistant Professor of Marketing to AI content strategist.</span><i aria-hidden="true">&rarr;</i></a><a class="card cta" href="https://calendly.com/digitalpoles/let-s-meet-up" data-i="3" data-pose="s-bag" data-say="Ready when you are. Grab a free 30-minute call with me." data-cta="Book a call" target="_blank" rel="noopener"><span class="for">For everyone</span><b>Let's talk</b><span class="d">Book a free 30-minute call on Calendly.</span><i aria-hidden="true">&rarr;</i></a></nav>
+      <nav class="grid" aria-label="Choose your path"><a class="card" href="/hire/" data-i="0" data-pose="s-laptop-l" data-say="Hiring? My portfolio and case studies are ready for you." data-cta="See my portfolio"><span class="for">For recruiters</span><b>I'm hiring</b><span class="d">See my portfolio, case studies and work history.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/services/" data-i="1" data-pose="s-phone-l" data-say="Need more customers? Let's grow your social media together." data-cta="See my services"><span class="for">For business owners</span><b>I need marketing help</b><span class="d">Social media, content, Meta ads and AI for small businesses.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/about/" data-i="2" data-pose="s-journal-l" data-say="I left a professor's office to build content for real brands. Curious why?" data-cta="Read my story"><span class="for">For the curious</span><b>Tell me about you</b><span class="d">From Assistant Professor of Marketing to AI content strategist.</span><i aria-hidden="true">&rarr;</i></a><a class="card cta" href="https://calendly.com/digitalpoles/let-s-meet-up" data-i="3" data-pose="s-bag-l" data-say="Ready when you are. Grab a free 30-minute call with me." data-cta="Book a call" target="_blank" rel="noopener"><span class="for">For everyone</span><b>Let's talk</b><span class="d">Book a free 30-minute call on Calendly.</span><i aria-hidden="true">&rarr;</i></a></nav>
     </div>
     <div class="art" id="art" aria-hidden="true">
       <div class="sun"></div>
-      <img src="/img/maher/s-bag.webp" alt="" width="377" height="820" fetchpriority="high">
+      <img class="pose on" src="/img/maher/s-bag-l.webp" alt="" width="377" height="820" fetchpriority="high"><img class="pose" src="/img/maher/s-bag-l.webp" alt="" width="377" height="820">
       <div class="bubble" id="bubble">Hi! Pick a card and I'll take you there.</div>
     </div>
   </div>
@@ -162,14 +162,21 @@ footer.site{border-top:1px solid var(--line)}
 </div></footer>
 <script>
 (function(){
-  var art=document.getElementById('art'),b=document.getElementById('bubble'),hi=b.textContent,t;
-  function say(s){clearTimeout(t);b.classList.add('fade');t=setTimeout(function(){b.textContent=s;b.classList.remove('fade')},180)}
-  document.querySelectorAll('.card').forEach(function(c){
-    function on(){art.classList.add('glow');say(c.dataset.say)}
-    function off(){art.classList.remove('glow');say(hi)}
-    c.addEventListener('mouseenter',on);c.addEventListener('focus',on);
+  var art=document.getElementById('art'),b=document.getElementById('bubble'),hi=b.textContent,imgs=art.querySelectorAll('img.pose'),cur=0,t,
+      cards=[].slice.call(document.querySelectorAll('.card'));
+  ['s-laptop-l','s-phone-l','s-journal-l'].forEach(function(p){var i=new Image();i.src='/img/maher/'+p+'.webp'});
+  function pose(p){var src='/img/maher/'+p+'.webp';if(imgs[cur].getAttribute('src')===src)return;var n=1-cur;imgs[n].src=src;imgs[n].classList.add('on');imgs[cur].classList.remove('on');cur=n}
+  function say(s){b.textContent=s;b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop')}
+  function on(c){art.classList.add('glow');pose(c.dataset.pose);say(c.dataset.say)}
+  function off(){art.classList.remove('glow');pose('s-bag-l');say(hi)}
+  cards.forEach(function(c){
+    c.addEventListener('mouseenter',function(){on(c)});c.addEventListener('focus',function(){on(c)});
     c.addEventListener('mouseleave',off);c.addEventListener('blur',off);
   });
+  // touch screens have no hover: gently rotate through the paths
+  if(matchMedia('(hover: none)').matches&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var k=-1;setInterval(function(){k=(k+1)%cards.length;on(cards[k])},3500);
+  }
 })();
 </script>
 </body>
