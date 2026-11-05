@@ -11,7 +11,7 @@
 <meta name="author" content="Maher Khan">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://www.digimarketingstudio.com/#maher", "name": "Maher Khan", "jobTitle": "AI Content Strategist", "description": "Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.", "url": "https://www.digimarketingstudio.com/", "image": "https://www.digimarketingstudio.com/services/img/portrait.png", "address": {"@type": "PostalAddress", "addressLocality": "San Jose", "addressRegion": "CA", "addressCountry": "US"}, "affiliation": [{"@type": "Organization", "name": "Adobe", "description": "Adobe Brand Ambassador for Adobe Express and Adobe Firefly"}, {"@type": "Organization", "name": "UCLA Extension"}], "alumniOf": [{"@type": "CollegeOrUniversity", "name": "University of Allahabad"}, {"@type": "Organization", "name": "Stanford HAI"}], "knowsAbout": ["Social media strategy", "Social media management", "Content strategy", "Digital marketing", "Meta ads", "AI marketing", "Adobe Express", "Adobe Firefly"], "sameAs": ["https://www.instagram.com/social.icm/", "https://www.linkedin.com/in/mahersocialmediastrategistus/", "https://www.threads.com/@social.icm", "https://github.com/maherkhan-builds"]}, {"@type": "WebSite", "@id": "https://www.digimarketingstudio.com/#site", "name": "Digi Marketing Studio", "url": "https://www.digimarketingstudio.com/", "publisher": {"@id": "https://www.digimarketingstudio.com/#maher"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who is Maher Khan?", "acceptedAnswer": {"@type": "Answer", "text": "Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly. She has 10+ years in digital marketing, 8+ years managing social media, and was an Assistant Professor of Marketing before moving into content strategy."}}, {"@type": "Question", "name": "What does Maher Khan do?", "acceptedAnswer": {"@type": "Answer", "text": "Maher plans, creates and grows content for brands. She offers social media management, content strategy, Meta ads and Reels, and AI training for marketing teams. She is also open to full-time Content Strategist and Social Media Manager roles."}}, {"@type": "Question", "name": "How can I work with Maher Khan?", "acceptedAnswer": {"@type": "Answer", "text": "Recruiters can view her portfolio on the hiring page. Small businesses can explore her services. Anyone can book a free 30-minute call through Calendly, and she replies to every message herself."}}]}]}</script>
 <link rel="icon" href="/favicon.png">
-<link rel="preload" as="image" href="/img/maher/s-bag.webp">
+<link rel="preload" as="image" href="/img/maher/s-bag.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
 <style>
@@ -23,74 +23,49 @@ a{color:inherit}
 .band{padding-left:16px;padding-right:16px}
 .wrap{max-width:1160px;margin:0 auto}
 .dot{color:var(--mustard)}
-header .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
-header img{display:block;height:30px;width:auto}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+header img{display:block;height:28px;width:auto}
 header nav{display:flex;gap:26px}
 header nav a{text-decoration:none;font-size:15px;color:var(--muted);font-weight:500}
 header nav a:hover{color:var(--white)}
-@media(max-width:760px){header nav{display:none}}
+.hcta{display:none}
+@media(max-width:760px){header nav{display:none}.hcta{display:inline-flex;align-items:center;height:38px;padding:0 16px;border-radius:19px;background:var(--mustard);color:var(--onyx);font-weight:600;font-size:14px;text-decoration:none}}
 
-.hero .wrap{text-align:center;padding-top:8px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:40px;align-items:center;padding-block:28px 56px}
 .eyebrow{margin:0;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mustard)}
-h1{font-family:var(--display);color:var(--white);font-size:clamp(38px,5.6vw,72px);font-weight:800;line-height:.98;letter-spacing:-0.045em;margin:12px auto 0;max-width:16ch;text-wrap:balance}
-.idl{color:var(--muted);max-width:66ch;margin:26px auto 0;font-size:15px}
+h1{font-family:var(--display);color:var(--white);font-size:clamp(36px,5vw,64px);font-weight:800;line-height:.98;letter-spacing:-0.045em;margin:12px 0 0;text-wrap:balance}
+.idl{color:var(--muted);max-width:56ch;margin:14px 0 0;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:26px}
+.card{position:relative;display:flex;flex-direction:column;gap:4px;padding:20px 20px 46px;border:1px solid var(--line);border-radius:18px;background:var(--g);text-decoration:none;color:var(--white);transition:border-color .25s,background .25s}
+.card .for{font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mustard)}
+.card b{font-family:var(--display);font-size:22px;line-height:1.15}
+.card .d{color:var(--muted);font-size:14.5px;line-height:1.5}
+.card i{position:absolute;left:20px;bottom:14px;font-style:normal;color:var(--mustard);font-size:20px;transition:transform .25s}
+.card:hover,.card:focus-visible{border-color:var(--mustard);background:var(--panel)}
+.card:hover i,.card:focus-visible i{transform:translateX(5px)}
+.card.cta{background:var(--mustard);border-color:var(--mustard);color:var(--onyx)}
+.card.cta .for,.card.cta i{color:var(--onyx)}.card.cta .d{color:#2a2410}
+.card.cta:hover{background:var(--champagne);border-color:var(--champagne)}
 
-/* stage */
-.stage{position:relative;height:430px;margin-top:26px}
-.floor{position:absolute;left:0;right:0;bottom:22px;height:1px;background:linear-gradient(90deg,transparent,var(--line) 15%,var(--line) 85%,transparent)}
-.me{position:absolute;left:0;bottom:0;width:230px;height:428px;transform:translateX(var(--x,-320px));transition:transform 1.15s cubic-bezier(.45,.05,.3,1);will-change:transform}
-.me .sun{position:absolute;left:50%;bottom:150px;width:220px;height:220px;margin-left:-110px;border-radius:50%;background:var(--mustard);transition:transform .5s}
-.me .shadow{position:absolute;left:50%;bottom:12px;width:150px;height:16px;margin-left:-75px;border-radius:50%;background:rgba(0,0,0,.55);filter:blur(4px)}
-.bod{position:absolute;inset:0;transform-origin:50% 92%}
-.flip{position:absolute;inset:0;transition:transform .25s}
-.me.left .flip{transform:scaleX(-1)}
-.bod img{position:absolute;left:50%;bottom:16px;height:400px;width:auto;transform:translateX(-50%);transition:opacity .35s;user-select:none;-webkit-user-drag:none}
-.bod img.off{opacity:0}
-.me.walking .bod{animation:step .34s ease-in-out infinite}
-.me.walking .sun{transform:scale(.92)}
-.me.landed .bod{animation:land .45s ease-out}
-@keyframes step{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
-@keyframes land{0%{transform:scale(1.04,.94)}55%{transform:scale(.98,1.03)}100%{transform:none}}
-.puff{position:absolute;bottom:16px;width:10px;height:10px;border-radius:50%;background:var(--champagne);opacity:0}
-.puff.a{left:30%}.puff.b{left:62%}
-.me.walking .puff{animation:puff .68s ease-out infinite}
-.me.walking .puff.b{animation-delay:.34s}
-@keyframes puff{0%{opacity:.8;transform:translate(0,0) scale(.6)}100%{opacity:0;transform:translate(-26px,-12px) scale(1.6)}}
-
-.bubble{position:absolute;bottom:300px;left:170px;width:260px;padding:14px 16px 14px;border-radius:18px 18px 18px 4px;background:var(--white);color:var(--onyx);font-size:15px;line-height:1.4;font-weight:500;box-shadow:0 10px 30px rgba(0,0,0,.4);transform-origin:0 100%;transition:opacity .2s,transform .2s}
-.bubble.r{left:auto;right:170px;border-radius:18px 18px 4px 18px;transform-origin:100% 100%}
-.bubble.hide{opacity:0;transform:scale(.85)}
-.bubble.pop{animation:pop .4s cubic-bezier(.3,1.6,.5,1)}
-@keyframes pop{0%{transform:scale(.7);opacity:0}100%{transform:scale(1);opacity:1}}
-.bubble a{display:inline-block;margin-top:8px;font-weight:700;font-size:14px;color:var(--onyx);text-decoration:none;border-bottom:2px solid var(--mustard)}
-.spark{position:absolute;width:8px;height:8px;background:var(--mustard);transform:rotate(45deg);opacity:.0;animation:tw 3.2s ease-in-out infinite}
-@keyframes tw{0%,100%{opacity:0;transform:rotate(45deg) scale(.4)}50%{opacity:.9;transform:rotate(45deg) scale(1)}}
-
-/* cards */
-.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:6px}
-.card{text-align:left;position:relative;display:flex;flex-direction:column;gap:6px;padding:22px 20px 54px;border:1px solid var(--line);border-radius:20px;background:var(--g);text-decoration:none;color:var(--white);transition:transform .3s,border-color .3s,background .3s}
-.card .for{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mustard)}
-.card b{font-family:var(--display);font-size:23px;line-height:1.1}
-.card .d{color:var(--muted);font-size:15px}
-.card i{position:absolute;left:20px;bottom:16px;font-style:normal;color:var(--mustard);font-size:22px;transition:transform .3s}
-.card.on,.card:hover{transform:translateY(-6px);border-color:var(--mustard)}
-.card.on i,.card:hover i{transform:translateX(6px)}
-.card:last-child{background:var(--mustard);border-color:var(--mustard);color:var(--onyx)}
-.card:last-child .for,.card:last-child i{color:var(--onyx)}.card:last-child .d{color:#2a2410}
-.card:last-child.on{box-shadow:0 0 0 3px var(--champagne)}
-.mb{display:none}@media(max-width:760px){.dk{display:none}.mb{display:inline}}
-.hint{text-align:center;color:var(--muted);font-size:14px;margin:18px 0 0}
+/* portrait */
+.art{position:relative;justify-self:center;width:100%;max-width:400px;aspect-ratio:400/560}
+.art .sun{position:absolute;left:8%;right:8%;top:16%;aspect-ratio:1;border-radius:50%;background:var(--mustard);animation:float 9s ease-in-out infinite;transition:box-shadow .4s,filter .4s}
+.art.glow .sun{box-shadow:0 0 0 14px rgba(212,167,44,.14),0 0 60px rgba(212,167,44,.35)}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,-12px)}}
+.art img{position:absolute;left:50%;bottom:0;height:100%;width:auto;transform:translateX(-50%)}
+.bubble{position:absolute;left:-14%;top:4%;max-width:220px;padding:12px 14px;border-radius:16px 16px 16px 4px;background:var(--white);color:var(--onyx);font-size:14px;line-height:1.4;font-weight:500;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:opacity .3s}
+.bubble.fade{opacity:0}
 
 /* who */
-.who .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding-block:96px 72px;border-bottom:1px solid var(--line)}
-.who h2{font-family:var(--display);color:var(--white);font-size:clamp(32px,4vw,48px);line-height:1.02;letter-spacing:-0.03em;margin:10px 0 0}
-.who p.a{font-size:18px;margin:16px 0 0;max-width:56ch}
+.who .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding-block:72px;border-top:1px solid var(--line)}
+.who h2,.faqs h2{font-family:var(--display);color:var(--white);font-size:clamp(28px,3.6vw,44px);line-height:1.04;letter-spacing:-0.03em;margin:10px 0 0}
+.who p.a{font-size:17px;margin:16px 0 0;max-width:56ch}
 .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-content:start}
-.fact{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--g)}
-.fact b{display:block;font-family:var(--display);font-size:38px;color:var(--mustard);line-height:1;letter-spacing:-0.03em}
-.fact span{display:block;color:var(--muted);font-size:14.5px;margin-top:8px}
-.faqs{padding-block:64px 88px}
-.faqs h2{font-family:var(--display);color:var(--white);font-size:clamp(28px,3.4vw,40px);letter-spacing:-0.03em;margin:0 0 24px}
+.fact{padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--g)}
+.fact b{display:block;font-family:var(--display);font-size:34px;color:var(--mustard);line-height:1;letter-spacing:-0.03em}
+.fact span{display:block;color:var(--muted);font-size:14px;margin-top:8px}
+.faqs .wrap{padding-block:8px 80px}
+.faqs h2{margin:0 0 22px}
 
 footer.site .wrap.sitefoot{display:grid;grid-template-columns:1fr auto;gap:14px 24px;align-items:center;padding-block:30px}
 .sitefoot .fname{font-family:var(--display);font-weight:800;font-size:20px;margin:0}
@@ -114,17 +89,22 @@ footer.site .wrap.sitefoot{display:grid;grid-template-columns:1fr auto;gap:14px 
 .sitefoot .fline,.fsmall{color:var(--muted)}.fsoc a{color:var(--white)}.sitefoot .fname{color:var(--white)}
 footer.site{border-top:1px solid var(--line)}
 
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.who .wrap{grid-template-columns:1fr;gap:28px;padding-block:64px 48px}}
-@media(max-width:760px){
- .stage{height:360px}
- .me{width:200px;height:358px;left:50%;margin-left:-100px;transform:none!important;transition:none}
- .me.left .flip{transform:none}
- .bod img{height:336px}.me .sun{width:180px;height:180px;margin-left:-90px;bottom:130px}
- .bubble,.bubble.r{left:auto;right:auto;left:50%;margin-left:-125px;width:250px;bottom:350px;border-radius:18px;font-size:14px;padding:12px 14px}
- .stage{margin-top:96px}
- .card{padding:16px 14px 44px}.card b{font-size:18px}.card .d{font-size:13.5px}.card .for{font-size:10.5px}.card i{left:14px;bottom:12px}
+@media(max-width:900px){
+ .hero .wrap{grid-template-columns:1fr;gap:28px;padding-block:16px 48px}
+ .art{max-width:300px;order:2}
+ .who .wrap{grid-template-columns:1fr;gap:24px;padding-block:56px}
 }
-@media(max-width:340px){.grid{grid-template-columns:1fr}}
+@media(max-width:560px){
+ h1{font-size:36px}
+ .idl{font-size:15px}
+ .grid{gap:10px;margin-top:20px}
+ .card{padding:15px 14px 40px;border-radius:16px}
+ .card b{font-size:17.5px}.card .d{font-size:13px}.card .for{font-size:11px;letter-spacing:.08em}
+ .card i{left:14px;bottom:10px;font-size:18px}
+ .art{max-width:240px}
+ .bubble{left:-30%;top:2%;max-width:170px;font-size:12.5px;padding:10px 12px}
+ .facts{gap:10px}.fact{padding:14px}.fact b{font-size:28px}
+}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -132,33 +112,23 @@ footer.site{border-top:1px solid var(--line)}
 <header class="band"><div class="wrap">
   <a href="/" aria-label="Maher Khan, home"><img src="/img/logo.png" alt="MK logo, Maher Khan" width="400" height="128"></a>
   <nav aria-label="Main"><a href="/hire/">Hire me</a><a href="/services/">Services</a><a href="/about/">About</a><a href="/book/">Book a call</a></nav>
+  <a class="hcta" href="https://calendly.com/digitalpoles/let-s-meet-up" target="_blank" rel="noopener">Book a call</a>
 </div></header>
 
 <main>
 <section class="hero band" aria-labelledby="h1">
   <div class="wrap">
-    <p class="eyebrow">Maher Khan · AI Content Strategist · San Jose, California</p>
-    <h1 id="h1">Hi, I'm Maher<span class="dot">.</span> What brings you here<span class="dot">?</span></h1>
-
-    <div class="stage" id="stage" aria-hidden="true">
-      <span class="spark" style="left:8%;top:30%;animation-delay:.2s"></span>
-      <span class="spark" style="left:46%;top:12%;animation-delay:1.4s"></span>
-      <span class="spark" style="left:88%;top:36%;animation-delay:2.3s"></span>
-      <div class="floor"></div>
-      <div class="me" id="me">
-        <div class="sun"></div><div class="shadow"></div>
-        <span class="puff a"></span><span class="puff b"></span>
-        <div class="bod"><div class="flip">
-          <img id="imgA" src="/img/maher/s-bag.webp" alt="" width="377" height="820">
-          <img id="imgB" class="off" src="/img/maher/s-bag.webp" alt="" width="377" height="820">
-        </div></div>
-        <div class="bubble hide" id="bubble"><span id="say">Hi! Tell me why you're here, and I'll walk you there.</span><br><a id="cta" href="#paths" tabindex="-1" hidden></a></div>
-      </div>
+    <div>
+      <p class="eyebrow">Maher Khan · AI Content Strategist · San Jose</p>
+      <h1 id="h1">Hi, I'm Maher<span class="dot">.</span> What brings you here<span class="dot">?</span></h1>
+      <p class="idl">Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.</p>
+      <nav class="grid" aria-label="Choose your path"><a class="card" href="/hire/" data-i="0" data-pose="s-laptop" data-say="Hiring? My portfolio and case studies are ready for you." data-cta="See my portfolio"><span class="for">For recruiters</span><b>I'm hiring</b><span class="d">See my portfolio, case studies and work history.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/services/" data-i="1" data-pose="s-phone" data-say="Need more customers? Let's grow your social media together." data-cta="See my services"><span class="for">For business owners</span><b>I need marketing help</b><span class="d">Social media, content, Meta ads and AI for small businesses.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/about/" data-i="2" data-pose="s-journal" data-say="I left a professor's office to build content for real brands. Curious why?" data-cta="Read my story"><span class="for">For the curious</span><b>Tell me about you</b><span class="d">From Assistant Professor of Marketing to AI content strategist.</span><i aria-hidden="true">&rarr;</i></a><a class="card cta" href="https://calendly.com/digitalpoles/let-s-meet-up" data-i="3" data-pose="s-bag" data-say="Ready when you are. Grab a free 30-minute call with me." data-cta="Book a call" target="_blank" rel="noopener"><span class="for">For everyone</span><b>Let's talk</b><span class="d">Book a free 30-minute call on Calendly.</span><i aria-hidden="true">&rarr;</i></a></nav>
     </div>
-
-    <nav class="grid" id="paths" aria-label="Choose your path"><a class="card" href="/hire/" data-i="0" data-pose="s-laptop" data-say="Hiring? My portfolio and case studies are ready for you." data-cta="See my portfolio"><span class="for">For recruiters</span><b>I'm hiring</b><span class="d">See my portfolio, case studies and work history.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/services/" data-i="1" data-pose="s-phone" data-say="Need more customers? Let's grow your social media together." data-cta="See my services"><span class="for">For business owners</span><b>I need marketing help</b><span class="d">Social media, content, Meta ads and AI for small businesses.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="/about/" data-i="2" data-pose="s-journal" data-say="I left a professor's office to build content for real brands. Curious why?" data-cta="Read my story"><span class="for">For the curious</span><b>Tell me about you</b><span class="d">From Assistant Professor of Marketing to AI content strategist.</span><i aria-hidden="true">&rarr;</i></a><a class="card" href="https://calendly.com/digitalpoles/let-s-meet-up" data-i="3" data-pose="s-bag" data-say="Ready when you are. Grab a free 30-minute call with me." data-cta="Book a call" target="_blank" rel="noopener"><span class="for">For everyone</span><b>Let's talk</b><span class="d">Book a free 30-minute call on Calendly.</span><i aria-hidden="true">&rarr;</i></a></nav>
-    <p class="idl">Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.</p>
-    <p class="hint"><span class="dk">Hover a card and watch me walk over. Or click to go straight there.</span><span class="mb">Watch me show you around, or tap a card to go there.</span></p>
+    <div class="art" id="art" aria-hidden="true">
+      <div class="sun"></div>
+      <img src="/img/maher/s-bag.webp" alt="" width="377" height="820" fetchpriority="high">
+      <div class="bubble" id="bubble">Hi! Pick a card and I'll take you there.</div>
+    </div>
   </div>
 </section>
 
@@ -167,7 +137,7 @@ footer.site{border-top:1px solid var(--line)}
     <div>
       <p class="eyebrow">Who I am</p>
       <h2 id="who-title">Who is Maher Khan<span class="dot">?</span></h2>
-      <p class="a">I'm an AI content strategist and social media strategist in San Jose, California. I spent 5 years teaching marketing as a professor, then moved into the work I taught. Today I help brands plan, create and grow content, and I'm an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.</p>
+      <p class="a">I'm an AI content strategist and social media strategist in San Jose, California. I spent 5 years as an Assistant Professor of Marketing, then moved into the work I taught. Today I help brands plan, create and grow content, and I'm an Adobe Brand Ambassador for Adobe Express and Adobe Firefly.</p>
     </div>
     <div class="facts">
       <div class="fact"><b>10+</b><span>years in digital marketing</span></div>
@@ -190,42 +160,16 @@ footer.site{border-top:1px solid var(--line)}
   <nav class="fsoc" aria-label="Social profiles"><a href="https://www.instagram.com/social.icm/" target="_blank" rel="noopener me"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg><span>Instagram</span></a><a href="https://www.linkedin.com/in/mahersocialmediastrategistus/" target="_blank" rel="noopener me"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 448 512"><path d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z"/></svg><span>LinkedIn</span></a><a href="https://www.threads.com/@social.icm" target="_blank" rel="noopener me"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M18.263 11.097c-.03-3.486-1.92-5.586-5.111-5.586-2.13 0-3.922.963-4.863 2.499l2.062 1.438c.535-.843 1.272-1.543 2.628-1.543 1.528 0 2.318.85 2.544 2.431a15 15 0 0 0-2.236-.173c-4.125 0-6.068 1.867-6.068 4.336s1.943 3.99 4.804 3.99c3.139 0 5.013-2.115 5.781-4.735.798.361 1.348 1.204 1.348 2.47 0 3.387-3.907 5.232-7.22 5.232-4.885 0-8.077-3.207-8.077-8.424 0-6.392 4.223-10.487 9.9-10.487 3.808 0 5.69 1.671 6.97 3.914l2.108-1.475C21.44 2.078 18.331 0 13.663 0 6.227 0 1.168 5.277 1.168 12.934c0 7 4.953 11.066 10.856 11.066 4.878 0 9.809-2.846 9.809-7.716 0-2.545-1.46-4.231-3.569-5.187m-6.33 4.855c-1.077 0-2.026-.512-2.026-1.453 0-1.483 1.822-1.934 3.606-1.934.678 0 1.34.045 1.927.173-.422 1.927-1.671 3.215-3.508 3.214Z"/></svg><span>Threads</span></a><a href="https://github.com/maherkhan-builds" target="_blank" rel="noopener me"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>GitHub</span></a></nav>
   <p class="fsmall">Digi Marketing Studio · Strategy first. AI second. Humans always. · Last updated: November 2026</p>
 </div></footer>
-
 <script>
 (function(){
-  var me=document.getElementById('me'),stage=document.getElementById('stage'),A=document.getElementById('imgA'),B=document.getElementById('imgB'),
-      bub=document.getElementById('bubble'),say=document.getElementById('say'),cta=document.getElementById('cta'),
-      cards=[].slice.call(document.querySelectorAll('.card')),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,
-      mobile=function(){return matchMedia('(max-width:760px)').matches},
-      cur=-1,x=null,tour=null,walkT=null,front=A;
-  ['s-laptop','s-phone','s-journal','s-bag'].forEach(function(p){var i=new Image();i.src='/img/maher/'+p+'.webp'});
-  function pose(p){var src='/img/maher/'+p+'.webp';if(front.getAttribute('src')===src)return;var back=front===A?B:A;back.src=src;back.classList.remove('off');front.classList.add('off');front=back}
-  function speak(t,c){say.textContent=t;if(c){cta.hidden=false;cta.textContent=c.dataset.cta+' \u2192';cta.href=c.href;if(c.target)cta.target='_blank';else cta.removeAttribute('target');}else cta.hidden=true;
-    bub.classList.remove('hide','pop');void bub.offsetWidth;bub.classList.add('pop')}
-  function target(i){var c=cards[i],s=stage.getBoundingClientRect(),r=c.getBoundingClientRect();return r.left-s.left+r.width/2-me.offsetWidth/2}
-  function side(nx){var w=stage.offsetWidth;bub.classList.toggle('r',nx>w-560)}
-  function walkTo(nx,done){
-    if(reduce||mobile()){me.classList.remove('landed');void me.offsetWidth;me.classList.add('landed');done&&done();return}
-    bub.classList.add('hide');
-    var dist=x===null?999:Math.abs(nx-x);me.classList.toggle('left',x!==null&&nx<x);
-    if(dist<4){done&&done();return}
-    me.classList.remove('landed');me.classList.add('walking');me.style.setProperty('--x',nx+'px');x=nx;
-    clearTimeout(walkT);walkT=setTimeout(function(){me.classList.remove('walking','left');void me.offsetWidth;me.classList.add('landed');side(nx);done&&done()},1150)}
-  function go(i){if(i===cur)return;cur=i;cards.forEach(function(c,k){c.classList.toggle('on',k===i)});
-    var c=cards[i];walkTo(target(i),function(){pose(c.dataset.pose);speak(c.dataset.say,c)})}
-  function stopTour(){if(tour){clearInterval(tour);tour=null}}
-  cards.forEach(function(c,i){
-    c.addEventListener('mouseenter',function(){stopTour();go(i)});
-    c.addEventListener('focus',function(){stopTour();go(i)});
+  var art=document.getElementById('art'),b=document.getElementById('bubble'),hi=b.textContent,t;
+  function say(s){clearTimeout(t);b.classList.add('fade');t=setTimeout(function(){b.textContent=s;b.classList.remove('fade')},180)}
+  document.querySelectorAll('.card').forEach(function(c){
+    function on(){art.classList.add('glow');say(c.dataset.say)}
+    function off(){art.classList.remove('glow');say(hi)}
+    c.addEventListener('mouseenter',on);c.addEventListener('focus',on);
+    c.addEventListener('mouseleave',off);c.addEventListener('blur',off);
   });
-  // intro: walk in to centre, say hi, then tour
-  function intro(){var w=stage.offsetWidth,nx=w/2-me.offsetWidth/2;
-    if(!mobile()&&!reduce){me.style.setProperty('--x','-320px');x=-320;void me.offsetWidth}
-    walkTo(nx,function(){side(nx);pose('s-bag');speak("Hi! Tell me why you're here, and I'll walk you there.",null);
-      setTimeout(function(){if(cur===-1&&!reduce){var k=0;go(0);tour=setInterval(function(){k=(k+1)%cards.length;cur=-2;go(k)},4200)}},2600)});
-  }
-  window.addEventListener('resize',function(){if(cur>=0){var i=cur;cur=-1;me.style.transition='none';x=null;var nx=target(i);me.style.setProperty('--x',nx+'px');x=nx;side(nx);void me.offsetWidth;me.style.transition='';cur=i}});
-  if(document.readyState==='complete')intro();else window.addEventListener('load',intro);
 })();
 </script>
 </body>
