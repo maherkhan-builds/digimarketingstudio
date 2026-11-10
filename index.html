@@ -89,6 +89,26 @@ footer.site .wrap.sitefoot{display:grid;grid-template-columns:1fr auto;gap:14px 
 .sitefoot .fline,.fsmall{color:var(--muted)}.fsoc a{color:var(--white)}.sitefoot .fname{color:var(--white)}
 footer.site{border-top:1px solid var(--line)}
 
+
+/* prompt vault signup */
+.vault .wrap{padding-block:0 64px}
+.vbox{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center;padding:28px 30px;border:1px solid var(--line);border-radius:20px;background:var(--g)}
+.vbox h2{font-family:var(--display);color:var(--white);font-size:clamp(24px,2.6vw,32px);line-height:1.08;letter-spacing:-0.03em;margin:8px 0 0}
+.vbox p.v{color:var(--muted);font-size:15px;margin:10px 0 0;max-width:46ch}
+.vform{display:flex;flex-wrap:wrap;gap:10px}
+.vform input{flex:1 1 150px;min-width:0;height:48px;padding:0 16px;border-radius:24px;border:1px solid var(--line);background:var(--onyx);color:var(--white);font:inherit;font-size:15px}
+.vform input::placeholder{color:var(--muted)}
+.vform input:focus{outline:none;border-color:var(--mustard)}
+.vform button{flex:1 1 100%;height:48px;border:0;border-radius:24px;background:var(--mustard);color:var(--onyx);font:600 15px var(--body);cursor:pointer;transition:background .25s}
+.vform button:hover{background:var(--champagne)}
+.vnote{flex:1 1 100%;margin:2px 0 0;font-size:12.5px;color:var(--muted)}
+.vslot form{display:flex!important;flex-wrap:wrap;gap:10px;margin:0!important;padding:0!important;background:transparent!important}
+.vslot form>*{margin:0!important}
+.vslot input{flex:1 1 150px}
+.vslot button,.vslot [type=submit]{flex:1 1 100%}
+.vslot a[href*="hostinger"],.vslot [class*="powered" i],.vslot [class*="badge" i]{transform:scale(.8);opacity:.6;margin-top:4px!important}
+@media(max-width:760px){.vbox{grid-template-columns:1fr;padding:22px 20px;gap:18px}}
+
 @media(max-width:900px){
  .hero .wrap{grid-template-columns:1fr;gap:28px;padding-block:16px 48px}
  .art{max-width:300px;order:2}
@@ -148,12 +168,28 @@ footer.site{border-top:1px solid var(--line)}
   </div>
 </section>
 
+<section class="vault band" id="vault" aria-labelledby="vault-title">
+  <div class="wrap"><div class="vbox">
+    <div>
+      <p class="eyebrow">Free resource</p>
+      <h2 id="vault-title">Grab my free AI Prompt Vault<span class="dot">.</span></h2>
+      <p class="v">The prompts I use in real client work for content, social media and ads. I update it often, so you always get the latest.</p>
+    </div>
+    <div class="vslot">
+      <!-- Hostinger Reach form: AI Prompt Vault - Homepage -->
+      <div data-reach-form="0e6a73e4-6cd8-40ad-bc93-b7e170214e00"></div>
+      <p class="vnote">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div></div>
+</section>
+
 <section class="faqs band" aria-labelledby="faq-title">
   <div class="wrap">
     <h2 id="faq-title">Frequently asked questions</h2>
     <div class="faq"><details open><summary>Who is Maher Khan?</summary><p>Maher Khan is an AI Content Strategist, social media strategist and digital marketer based in San Jose, California, and an Adobe Brand Ambassador for Adobe Express and Adobe Firefly. She has 10+ years in digital marketing, 8+ years managing social media, and was an Assistant Professor of Marketing before moving into content strategy.</p></details><details><summary>What does Maher Khan do?</summary><p>Maher plans, creates and grows content for brands. She offers social media management, content strategy, Meta ads and Reels, and AI training for marketing teams. She is also open to full-time Content Strategist and Social Media Manager roles.</p></details><details><summary>How can I work with Maher Khan?</summary><p>Recruiters can view her portfolio on the hiring page. Small businesses can explore her services. Anyone can book a free 30-minute call through Calendly, and she replies to every message herself.</p></details></div>
   </div>
 </section>
+
 </main>
 <footer class="site band"><div class="wrap sitefoot">
   <div><p class="fname">Maher Khan<span class="dot">.</span></p><p class="fline">AI Content Strategist · Social Media Strategist · Digital Marketer · San Jose, CA</p></div>
@@ -179,5 +215,6 @@ footer.site{border-top:1px solid var(--line)}
   }
 })();
 </script>
+<script src="https://cdn-reach.hostinger.com/js/embed.js"></script>
 </body>
 </html>
