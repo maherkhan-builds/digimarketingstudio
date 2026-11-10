@@ -92,7 +92,7 @@ footer.site{border-top:1px solid var(--line)}
 
 /* prompt vault signup */
 .vault .wrap{padding-block:0 64px}
-.vbox{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center;padding:28px 30px;border:1px solid var(--line);border-radius:20px;background:var(--g)}
+.vbox{display:grid;grid-template-columns:200px minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center;padding:28px 30px;border:1px solid var(--line);border-radius:20px;background:var(--g)}
 .vbox h2{font-family:var(--display);color:var(--white);font-size:clamp(24px,2.6vw,32px);line-height:1.08;letter-spacing:-0.03em;margin:8px 0 0}
 .vbox p.v{color:var(--muted);font-size:15px;margin:10px 0 0;max-width:46ch}
 .vform{display:flex;flex-wrap:wrap;gap:10px}
@@ -107,6 +107,17 @@ footer.site{border-top:1px solid var(--line)}
 .vslot input{flex:1 1 150px}
 .vslot button,.vslot [type=submit]{flex:1 1 100%}
 .vslot a[href*="hostinger"],.vslot [class*="powered" i],.vslot [class*="badge" i]{transform:scale(.8);opacity:.6;margin-top:4px!important}
+.vart{position:relative;width:200px;aspect-ratio:1122/1402;align-self:end;margin-bottom:-6px}
+.vart .desk{position:absolute;inset:0;width:100%;height:100%;animation:vtype 1.1s ease-in-out infinite}
+.vart .bub{position:absolute;left:43%;top:.5%;width:36%;height:auto;transform-origin:10% 100%;animation:vfloat 3.4s ease-in-out infinite;filter:drop-shadow(0 6px 14px rgba(212,167,44,.35))}
+.vart .keys{position:absolute;left:52%;top:43%;width:22%;height:6%;pointer-events:none}
+.vart .keys i{position:absolute;bottom:0;width:5px;height:5px;border-radius:50%;background:var(--champagne);opacity:0;animation:vkey 1.2s ease-out infinite}
+.vart .keys i:nth-child(1){left:10%}.vart .keys i:nth-child(2){left:45%;animation-delay:.4s}.vart .keys i:nth-child(3){left:80%;animation-delay:.8s}
+@keyframes vfloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
+@keyframes vtype{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+@keyframes vkey{0%{transform:translateY(0) scale(.6);opacity:0}25%{opacity:1}100%{transform:translateY(-22px) scale(1);opacity:0}}
+@media(max-width:1000px){.vbox{grid-template-columns:150px minmax(0,1fr) minmax(0,1fr);gap:22px}.vart{width:150px}}
+@media(max-width:760px){.vart{width:170px;justify-self:center;margin-bottom:0}}
 @media(max-width:760px){.vbox{grid-template-columns:1fr;padding:22px 20px;gap:18px}}
 
 @media(max-width:900px){
@@ -170,6 +181,11 @@ footer.site{border-top:1px solid var(--line)}
 
 <section class="vault band" id="vault" aria-labelledby="vault-title">
   <div class="wrap"><div class="vbox">
+    <div class="vart" aria-hidden="true">
+      <img class="desk" src="/img/maher/vault-desk.webp" alt="" width="560" height="700" loading="lazy">
+      <span class="keys"><i></i><i></i><i></i></span>
+      <img class="bub" src="/img/maher/vault-bubble.webp" alt="" width="201" height="154" loading="lazy">
+    </div>
     <div>
       <p class="eyebrow">Free resource</p>
       <h2 id="vault-title">Grab my free AI Prompt Vault<span class="dot">.</span></h2>
