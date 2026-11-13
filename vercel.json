@@ -44,6 +44,15 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/portfolio-landing/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }
