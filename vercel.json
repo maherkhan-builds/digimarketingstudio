@@ -3,6 +3,26 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/hire",
+      "destination": "/#cases",
+      "permanent": false
+    },
+    {
+      "source": "/hire/",
+      "destination": "/#cases",
+      "permanent": false
+    },
+    {
+      "source": "/services",
+      "destination": "/#services",
+      "permanent": false
+    },
+    {
+      "source": "/services/",
+      "destination": "/#services",
+      "permanent": false
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

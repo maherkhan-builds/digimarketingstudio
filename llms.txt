@@ -5,17 +5,18 @@
 She helps hiring teams and small businesses with social media strategy, social media management, content strategy, Meta ads, Reels and video content, and AI training for marketing teams. Open to full-time Content Strategist, Senior Content Strategist, Social Media Manager and Digital Marketing roles, remote or in the San Francisco Bay Area.
 
 ## Key pages
-- [Home](https://www.digimarketingstudio.com/): start here and choose a path: hiring, services, about or book a call
-- [Hiring portfolio](https://www.digimarketingstudio.com/hire/): case studies, results and client testimonials for recruiters
-- [Services](https://www.digimarketingstudio.com/services/): social media management, content strategy, Meta ads, Reels, AI training and automations for small businesses, plus a comparison of doing it yourself, hiring an agency or working with Maher directly
+- [Home](https://www.digimarketingstudio.com/): services, case studies, client testimonials, AI apps, credentials, free AI videos and FAQ, all on one page
+- [Services](https://www.digimarketingstudio.com/#services): social media management and content strategy, Meta ads and Reels, AI training for marketing teams, and no-code AI automations
+- [Case studies](https://www.digimarketingstudio.com/#cases): UCLA Extension, Adobe, The Freedom Switch, Vegius and Agency Coach
 - [About Maher](https://www.digimarketingstudio.com/about/): career story from marketing professor to AI content strategist
-- [Book a call](https://www.digimarketingstudio.com/book/): free 30-minute call for hiring managers and small businesses (Calendly)
+- [Book a call](https://www.digimarketingstudio.com/book/): free 30-minute call for hiring managers and small businesses
 
-## Case studies (on the hiring portfolio)
-- [The Freedom Switch](https://www.digimarketingstudio.com/hire/#portfolio): 3 years and 8 months of social media and community management for a UK marketing agency and its clients (2022 to 2025)
-- [UCLA Extension](https://www.digimarketingstudio.com/hire/#portfolio): Agentic AI Marketing curriculum, 15 professionals shipped AI agents
-- [Maven Systems](https://www.digimarketingstudio.com/hire/#portfolio): full-funnel SaaS marketing for a bookkeeping app
-- [Agency Coach](https://www.digimarketingstudio.com/hire/#portfolio): social media management and content for a marketing agency for small businesses in Arizona (2023)
+## Case studies
+- UCLA Extension: designed the AI Marketing Implementation course, 15 professionals shipped their own AI agent
+- Adobe: Brand Ambassador for Adobe Express and Adobe Firefly since Feb 2026
+- The Freedom Switch: 3 years and 8 months of social media and community management for a UK marketing agency (2022 to 2025)
+- Vegius (The Vegan Stay): a values-led visual system and content plan
+- Agency Coach: 10 months of social media for a marketing agency in Arizona (2023)
 
 ## Profiles
 - [LinkedIn](https://www.linkedin.com/in/mahersocialmediastrategistus/)
